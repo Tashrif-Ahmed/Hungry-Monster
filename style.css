@@ -1,0 +1,79 @@
+#container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#header{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#itemSearch , #searchBtn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+#searchBtn{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    
+}
+.items{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.item{
+    margin:20px auto;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgb(179, 179, 179);
+    padding: 10px;
+    width: 250px;
+    background-color:rgb(240, 240, 240);
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+
+
+
+.itemImg{
+    width: 100%;
+    border-radius: 5%;
+   
+}
+.itemName{
+    text-align: center;
+    width: 100%;
+}
+#recipe{
+    max-width: 70%;
+
+   margin: 50px auto;
+   background-color:rgb(240, 240, 240);
+   box-shadow: 10px 10px 5px rgb(179, 179, 179);
+
+}
+.recipeBody{
+ padding: 10px;
+ text-align: center;
+}
+.recipeBody img{
+    width: 100px;
+    border-radius: 50%;
+}
+.Name{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+#btn{
+    margin: 20px;
+    
+}
+
